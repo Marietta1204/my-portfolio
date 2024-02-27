@@ -1,0 +1,2 @@
+react-icons
+react-type-animation
