@@ -1,5 +1,5 @@
 import React from "react";
-import profil from "../assets/img/profil.png";
+import profil2 from "../assets/img/profil2.jpeg";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebookF, FaInstagram, FaLinkedinIn} from "react-icons/fa";
 
@@ -34,8 +34,8 @@ const Main = () => {
       </div>
       </div>   
       {/* <div className="rounded-full overflow-hidden w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 absolute top-1/2 transform -translate-y-1/2"> */}
-      <div className=" overflow-hidden">
-        <img className='w-full h-screen object-contain' src={profil}/>
+      <div className=" overflow-hidden ml-9" style={{ clipPath: 'circle(41% at 50% 43%)' }}>
+        <img className='w-full h-screen object-contain' src={profil2}/>
         </div>   
     </div>
   );
